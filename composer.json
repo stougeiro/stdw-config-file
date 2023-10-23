@@ -1,0 +1,21 @@
+{
+    "name": "stougeiro/stdw-config-file",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "S.Tougeiro",
+            "email": "sidneytougeiro@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "STDW\\Config\\File\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "stougeiro/stdw-contract": "dev-main",
+        "stougeiro/stdw-config": "dev-main"
+    }
+}
