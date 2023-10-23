@@ -3,7 +3,7 @@
     namespace STDW\Config\File;
 
     use STDW\Contract\ConfigHandlerInterface;
-    use STDW\Config\Exception\ItemNotFoundException;
+    use STDW\Config\File\FileException\ItemNotFoundException;
     use STDW\Config\File\FileException\StorageNotFoundException;
 
 
