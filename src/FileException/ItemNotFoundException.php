@@ -3,4 +3,5 @@
     namespace STDW\Config\File\FileException;
 
 
-    class ItemNotFoundException extends \Exception { }
+    class ItemNotFoundException extends \Exception
+    { }

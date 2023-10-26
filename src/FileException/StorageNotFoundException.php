@@ -3,4 +3,5 @@
     namespace STDW\Config\File\FileException;
 
 
-    class StorageNotFoundException extends \Exception { }
+    class StorageNotFoundException extends \Exception
+    { }
